@@ -1,8 +1,8 @@
 import React, { useState }from "react";
-import { StyleSheet, Text, View, Modal, TextInput, Button } from "react-native";
+import { StyleSheet, View, Modal, TextInput, Button } from "react-native";
 import { THEME } from "../theme";
 
-export const EditModal = ({ visible, onCancel, value, onSave, }) => {
+export const EditModal = ({ visible, onCancel, value, onSave }) => {
     const [title, setTitle] = useState(value)
     const [award1, setAward1] = useState('')
     const [award2, setAward2] = useState('')

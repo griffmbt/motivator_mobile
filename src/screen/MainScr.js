@@ -9,7 +9,6 @@ export const MainScr = ({ goBack, habit, onRemove, onSave }) => {
   const [modal, setModal] = useState(false);
   const [days, setDays] = useState(0);
   const [chain, setChain] = useState(0);
-  const [awardRandom, setAwardRandom] = useState(0);
   const [isValid, setIsValid] = useState(true)
 
   const onSaveHandler = (title, award1, award2, award3) => {
@@ -20,8 +19,6 @@ export const MainScr = ({ goBack, habit, onRemove, onSave }) => {
   const addDay = () => {
     setDays(days + 1);
     setChain(chain + 1);
-    setAwardRandom(randomInteger(1, 3))
-    console.log(awardRandom)
     setIsValid(false)
   }
 

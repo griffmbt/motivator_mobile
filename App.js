@@ -10,13 +10,15 @@ export default function App() {
   const [habitId, setHabitId] = useState("1");
   const [habits, setHabits] = useState([]);
 
-  const updateHabit = (id, title, award1, award2, award3) => {
+  const updateHabit = (id, title, award1, award2, award3, days, chain) => {
     setHabits(old => old.map(habit => {
       if (habit.id === id) {
         habit.title = title;
         habit.award1 = award1;
         habit.award2 = award2;
         habit.award3 = award3;
+        habit.days = days; 
+        habit.chain = chain;
       }
 
       return habit
