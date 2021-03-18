@@ -10,3 +10,6 @@
  
  для запуска проекта:
  ### `expo start`
+ 
+ для просмотра приложения на iOS или Android установите 'Expo Go':
+ https://docs.expo.io/get-started/installation/#2-expo-go-app-for-ios-and
