@@ -5,11 +5,14 @@
 
 ![23 03 33](https://user-images.githubusercontent.com/76152377/111683453-f255ef00-883e-11eb-97cd-275825a38f21.png)
 
+
 после того как клонировали репозиторий:
  ### `npm install`
+ <br />
  
  для запуска проекта:
  ### `expo start`
+ <br />
  
- для просмотра приложения на iOS или Android установите 'Expo Go':
+ для просмотра приложения на iOS или Android установите Expo Go: <br />
  https://docs.expo.io/get-started/installation/#2-expo-go-app-for-ios-and
