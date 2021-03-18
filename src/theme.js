@@ -1,1 +1,5 @@
-export const 
+export const THEME = {
+    BACKGROUND_COLOR: '#444c5c',
+    MUSTARD_COLOR: '#E1B16A',
+    LIGHT_MUSTARD_COLOR: '#F0D4AA',
+}

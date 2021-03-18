@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { THEME } from "../theme";
 
 export const Habit = ({ habit, onOpen }) => {
   return (
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "gray",
     borderRadius: 10,
-    backgroundColor: "#F0D4AA"
+    backgroundColor: THEME.LIGHT_MUSTARD_COLOR,
   },
   title: {
       fontSize: 20,

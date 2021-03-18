@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View, ScrollView, Alert } from "react-native";
+import { StyleSheet, Text, View, Alert } from "react-native";
 import { Header } from "./src/components/Header";
 import { AddScr } from "./src/screen/AddScr";
 import { MainScr } from "./src/screen/MainScr";
+import { THEME } from "./src/theme";
+
 
 export default function App() {
   const [habitId, setHabitId] = useState("1");
@@ -21,13 +23,6 @@ export default function App() {
     }))
   }
 
-  // let content = (
-  //   <AddScr addHabit={addHabit} habits={habits} openHabit={setHabitId} />
-  // );
-
-  // if (habitId === "2") {
-  //   content = <MainScr goBack={() => setHabitId("1")} habits={habits} />;
-  // }
   let habitTitle = habits.find(habit => habitId === habit.id)
 
   const addHabit = (title) => {
@@ -74,14 +69,10 @@ export default function App() {
 
 const styles = StyleSheet.create({
   appContainer: {
-    backgroundColor: "#E1B16A",
+    backgroundColor: THEME.BACKGROUND_COLOR,
     height: "100%"
   },
   container: {
     padding: 20,
-    // flex: 1,
-    // backgroundColor: '#000',
-    // alignItems: 'center',
-    // justifyContent: 'center',
   },
 });

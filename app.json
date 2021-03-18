@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-project1",
-    "slug": "my-project1",
+    "name": "motivator_mobile",
+    "slug": "motivator_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
