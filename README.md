@@ -4,3 +4,9 @@
 
 
 ![23 03 33](https://user-images.githubusercontent.com/76152377/111683453-f255ef00-883e-11eb-97cd-275825a38f21.png)
+
+после того как клонировали репозиторий, наберите:
+ ### `npm install`
+ 
+ для запуска проекта:
+ ### `expo start`
